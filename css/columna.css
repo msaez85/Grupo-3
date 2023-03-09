@@ -1,9 +1,8 @@
 
 .padre{
     display:flex ;
-    background-color:RGB(250, 212, 192);
+    background-color:#241835;
     width: 70%;
-    justify-content:space-between;
 }
 
 .imagen{
