@@ -8,6 +8,9 @@
     padding: 0;
     margin: 0;
 }
+.navbar {
+    height: 10vh;
+}
 .Main {
     display: flex;
     background-color: #ffffff;
@@ -16,12 +19,12 @@
 .segCol {
     width: 30%;
     background-color: RGB(250, 212, 192);
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     padding: 10px 20px;
     position: sticky;
-    top: 80px;
+    top: 10vh;
     border: 2px solid black;
 }
 /* Fin segunda columna izquierda */
@@ -29,7 +32,7 @@
 .mainCol {
     border: red 2px  solid;
     width: 70%;
-    height: 100vh;
+    padding: 10px;
 }
 /* Fin columna principal derecha */
 .carousel {
