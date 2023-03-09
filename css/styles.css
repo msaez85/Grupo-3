@@ -8,17 +8,11 @@
     padding: 0;
     margin: 0;
 }
-.mainNav {
-    height: 80px;
-    width: 100%;
-    background-color: grey;
-    position: fixed;
-    top: 0;
-}
 .Main {
-    /* display: flex; */
+    display: flex;
     background-color: #ffffff;
 }
+/* Inicio segunda columna izquierda */
 .segCol {
     width: 30%;
     background-color: RGB(250, 212, 192);
@@ -28,10 +22,18 @@
     padding: 10px 20px;
     position: sticky;
     top: 80px;
-
+    border: 2px solid black;
 }
+/* Fin segunda columna izquierda */
+/* Inicio columna principal derecha */
+.mainCol {
+    border: red 2px  solid;
+    width: 70%;
+    height: 100vh;
+}
+/* Fin columna principal derecha */
 .carousel {
-    margin-top: 80px;
+    margin-top: 55px;
     /* z-index: -1; */
 }
 /* Inicio parte input search segunda columna */
