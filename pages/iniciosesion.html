@@ -4,31 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
     <link rel="stylesheet" href="../css/iniciosesion.css">
-    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5f1547ad16.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <!--login-->
-    <div class="container-inicio-sesion">
-        <h1>Iniciar Sesión</h1>
-        <form action="">
-            <label for="usuario">Usuario o correo electrónico:</label>
-            <input type="text" name="usuario" id="usuario-input"><br><br>
-            <label for="contraseña">Contraseña:</label>
-            <input type="password" name="contraseña" id="contraseña-input"><br><br>
-            <a href="#">¿No tienes una cuenta? Regístrate ahora.</a>
-        </form>
+<body class="loginBody">
+    <!--LOGIN-->
+    <div class="contenedor">
+        <div class="container-inicio-sesion">
+            <div class="caja-h1-login">
+                <h1>Iniciar Sesión</h1><br>
+            </div>
+            <div class="formulario">
+                <form action="">
+                    
+                    <input type="text" name="usuario" id="usuario-input" placeholder="Usuario o correo electrónico"><br><br>
+                    
+                    <input type="password" name="contraseña" id="contraseña-input" placeholder="Contraseña"><br><br><br>
+                    <button type="submit" class="ingresar-btn">Ingresar</button><br><br><br>
+                    <a id="forgot-pass" href="recuperarcontraseña.html">He olvidado mi contraseña.</a><br><br>
+                    <span>No tengo una cuenta. <a id="not-have-account" href="registro.html">Registrarme.</a><br><br></span> 
+                    <!--iniciar con redes-->
+                    <div class="redes-iniciar-box">
+                        
+                        <div class="google-iniciar-box">
+                            <span><a href="#"> <i class="fa-brands fa-google"></i> Iniciar sesión con Google </a></span>
+                        </div>
+                        <div class="facebook-iniciar-box">
+                            <span><a href="#"><i class="fa-brands fa-facebook"></i> Iniciar sesión con Facebook</a></span>
+                        </div>
+                    </div>
+            
+                    
+                </form>
+            </div>
+        </div>
     </div>
     
-    
-    <!--separador-->
-    
-    <br><br><br><br><br><br><br><br>
-
-    <!--registro-->
-
-    <div class="container-registro">
-
-    </div>
+   
 </body>
 </html>

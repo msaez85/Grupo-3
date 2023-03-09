@@ -1,4 +1,4 @@
-.loginBody{
+.loginRecup{
     font-family: 'Roboto', sans-serif;
     font-size: large;
     background-image: url('../assets/background-3.png');
@@ -13,7 +13,7 @@
     
 }
 
-.container-inicio-sesion{
+.container-recuperar-contraseña{
     /* display: flex; */
     /* justify-content: center; */
     /* margin: 0 auto; */
@@ -40,7 +40,7 @@
 
 
 
-#usuario-input, #contraseña-input, .ingresar-btn{ 
+#email-input, .enviar-btn{ 
     font-size: large ;
     width: 100%;
     height: 40px;
@@ -52,7 +52,7 @@
 
 }
 
-.ingresar-btn{
+.enviar-btn{
     border: 2px solid rgb(0, 0, 0);
     background-color: rgb(211, 211, 211);
     cursor: pointer;
@@ -63,7 +63,7 @@
     border-bottom-right-radius: 4%;
 }
 
-.ingresar-btn:hover{
+.enviar-btn:hover{
     border: 2px solid rgb(65, 65, 65);
     background-color: rgb(255, 38, 0);
     color: white;
@@ -71,40 +71,41 @@
     
 }
 
-#forgot-pass, #not-have-account{
-    text-decoration: none;
-    color: rgb(22, 83, 196);
-    
-    
-}
-#forgot-pass:hover, #not-have-account:hover{
-    color: rgb(255, 0, 0);
-    font-size: 18.4px;
-    
-}
-#google-icon, #facebook-icon{
-    height: 25px;
-    width: 25px;
-
-}
-.google-iniciar-box, .facebook-iniciar-box{
-    padding-top: 13px;
-    padding-bottom: 13px;
-}
-
-.google-iniciar-box span a, .facebook-iniciar-box span a{
-    text-decoration: none;
-    color: rgb(48, 62, 253);
-}
-.google-iniciar-box span a:hover, .facebook-iniciar-box span a:hover{
-    text-decoration: underline;
-}
 
 /* media querie */
 @media only screen and (max-width: 425px) {
-    .container-inicio-sesion {
+    .container-recuperar-contraseña {
       width: 100%;
       margin: 0;
       padding: 20px;
     }
-  }
+}
+
+  @media only screen and (max-width: 320px) {
+    .container-recuperar-contraseña {
+      width: 100%;
+      margin: 0;
+      padding: 20px;
+      font-size: large;
+      
+    }
+    .enviar-btn{
+        font-size: medium;
+    }
+  
+
+}
+
+@media only screen and (max-width: 569px) {
+    .container-recuperar-contraseña {
+      width: 100%;
+      margin: 0;
+      padding: 20px;
+      font-size: large;
+      
+    }
+    .enviar-btn{
+        font-size: medium;
+    }
+
+}
