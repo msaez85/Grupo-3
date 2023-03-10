@@ -208,6 +208,7 @@
     .footer-container{
         font-size: medium;
     }
+
     .social-circle li a {
         display: inline-block;
         position: relative;
@@ -226,6 +227,10 @@
         line-height: 30px;
         text-align: center;
       }
+
+      .optCategories {
+        font-size: 0.8rem;
+    }
 }
 
 @media (max-width: 576px){
@@ -256,6 +261,10 @@
         line-height: 50px;
         text-align: center;
       }
+
+      .optCategories {
+        font-size: 0.7rem;
+    }
 }
 
 /* Fin footer */
