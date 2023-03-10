@@ -53,17 +53,16 @@
     caret-color: white;
 }
 .inputSearchDiv {
-    width: 100%;
-    background-color: white;
-    border: 2px solid black;
-    border-radius: 5px;
-    align-items: center;
-    border-radius: 5px;
+  width: 100%;
+  background-color: #FAD4C0;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  border-radius: 5px;
+  align-items: center;
+  border-radius: 5px;
 }
 
-.inputSearchBar{
-    background-color: white;
-}
 
 .recipesTitle {
     margin: 5px 0;
@@ -71,7 +70,12 @@
 .svgSearchBar {
     padding: 0 2%;
 }
-
+.inputSearchDiv:hover .inputSearchBar {
+  background-color: #ffbc98;
+}
+.inputSearchDiv:hover {
+  background-color: #ffbc98;
+}
 /* Fin parte input search segunda columna */
 
 /* Inicio parte Recetas por categorias */
