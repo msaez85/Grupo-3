@@ -122,8 +122,8 @@
 
 /* Inicio footer */
 .footer, .footer-content {
-    width: 100%  !important;
-    height: 30vh;
+    width: 100% !important;
+    height: 27vh !important;
     background-color: #FAD4C0;
 }
 
@@ -220,12 +220,20 @@
         font-size: smaller !important;
         margin: 0 !important;
     } 
+
+    .footer-container{
+      font-size: medium;
+  }
 }
 
 @media (max-width: 768px){
 
     .nav-container{
         width: 90% !important;
+    }
+
+    .footer-content{
+      height: auto !important;
     }
 
     .nav-link{
