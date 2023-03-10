@@ -203,7 +203,30 @@
     font-weight: bold;
 }
 
+@media (max-width: 1200px){
+
+    .nav-container{
+        background-color: #FAD4C0 !important;
+        width: 80% !important;
+        border-radius: 5px;
+    }
+
+    .nav-link{
+        font-size: smaller !important;
+        margin: 0 !important;
+    } 
+}
+
 @media (max-width: 768px){
+
+    .nav-container{
+        width: 90% !important;
+    }
+
+    .nav-link{
+        font-size: smaller !important;
+        margin: 0 !important;
+    }
 
     .footer-container{
         font-size: medium;
@@ -234,6 +257,10 @@
 }
 
 @media (max-width: 576px){
+
+    .nav-container{
+        width: 100% !important;
+    }
 
     .footer-container{
         display: flex;
