@@ -234,10 +234,6 @@
         font-size: larger;
     }
 
-    .footer-content{
-        height: auto !important;
-    }
-
     .social-circle li a {
         display: inline-block;
         position: relative;
