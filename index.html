@@ -40,11 +40,41 @@
                     </ul>
                 </div>
                 <form class="d-flex" role="sign">
-                    <button class="btn btn-outline-secondary mx-2 fs-5 fw-semibold" type="submit"><a
-                            class="dropdown-item" href="./pages/iniciosesion.html">Sign Up</a></button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-secondary mx-2 fs-5 fw-semibold" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        <a class="dropdown-item" href="#">Sign Up</a>
+                    </button>
                     <button class="btn btn-outline-secondary mx-2 fs-5 fw-semibold" type="submit"><a
                             class="dropdown-item" href="./pages/iniciosesion.html">Sign In</a></button>
                 </form>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Suscriberme</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="FormControlText" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="FormControlText" placeholder="Juan Perez">
+                            </div>
+                            <div class="mb-3">
+                                <label for="FormControlemail" class="form-label">Correo Electronico</label>
+                                <input type="email" class="form-control" id="FormControlemail"
+                                    placeholder="name@example.com">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">suscribirme</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </nav>
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">

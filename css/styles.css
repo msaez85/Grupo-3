@@ -17,6 +17,11 @@
     display: flex;
     background-color: #ffffff;
 }
+
+.modal-backdrop {
+    z-index: 0 !important;
+}
+
 /* Inicio segunda columna izquierda */
 .segCol {
     width: 30%;
