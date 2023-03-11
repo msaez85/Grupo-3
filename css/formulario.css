@@ -1,0 +1,9 @@
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+}
+.pie-de-pagina{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.116);
+
+}
