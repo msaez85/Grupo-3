@@ -4,11 +4,16 @@
 }
 
 body{
-    background-color:black;
+    background-image: url(./IMG/background-gris-claro.jpg);
     color: aliceblue;
     padding: 25px;
 }
 
+h1{
+    color: red;
+    background-color: antiquewhite;
+    padding: 10px;
+}
 .col-3{
     margin: 0px;
     padding: 10px;
@@ -19,7 +24,7 @@ img{
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 8px 8px 10px 0px rgba(106,159,189,0.52);
+    box-shadow: 8px 8px 10px 3px rgba(53, 7, 182, 0.877);
 }
 
 img:hover{
