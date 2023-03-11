@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(./IMG/background-gris-claro.jpg);
+    background-image: url(../assets/background-gris-claro.jpg);
     color: aliceblue;
     padding: 25px;
 }
