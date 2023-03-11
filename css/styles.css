@@ -11,8 +11,8 @@
 .navbar {
     height: 10vh;
     background-color: #FAD4C0;
+    width: 100%;
 }
-
 .Main {
     display: flex;
     background-color: #ffffff;
@@ -23,6 +23,9 @@
 }
 
 /* Inicio segunda columna izquierda */
+.segColBtn {
+  display: none;
+}
 .segCol {
     width: 30%;
     background-color: RGB(250, 212, 192);
@@ -43,8 +46,7 @@
 }
 /* Fin columna principal derecha */
 .carousel {
-    margin-top: 55px;
-    z-index: 0;
+    margin-top: 10vh;
 }
 /* Inicio parte input search segunda columna */
 
@@ -270,6 +272,35 @@
 }
 
 @media (max-width: 576px){
+      /* Inicio boton barra lateral */
+      .segCol {
+        display: none;
+      }
+      .segColBtn {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 40px;
+        background-color: RGB(250, 212, 192);
+        border-radius: 0 7px 7px 0;
+        position: fixed;
+        left: 0;
+        top: 50vh;
+        z-index: 2;
+        border: 2px black solid;
+      }
+      .svgSearchBarBtn {
+        height: 80%;
+        width: 80%;
+        text-align: center;
+        padding-top: 10%;
+      }
+      .offcanvas {
+        background-color: RGB(250, 212, 192) !important;
+      }
+      /* Fin boton barra lateral */
 
     .nav-container{
         width: 100% !important;

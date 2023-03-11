@@ -111,6 +111,40 @@
             </div>
     </header>
     <main class="Main">
+        <!-- inicio boton desplegable solo 576px -->
+        <div class="segColBtn">            
+            <button class="btn" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="bi bi-search svgSearchBarBtn"></i></button>
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+                id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Recetas por categorias</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="inputSearchDiv">
+                        <i class="bi bi-search svgSearchBar"></i>
+                        <input type="search" name="" id="" class="inputSearchBar" placeholder="Busca tu receta!">
+                    </div>
+                    <h5 class="recipesTitle">Recetas por categorias</h5>
+                    <div class="categories">
+                        <p class="optCategories">Postres y dulces</p>
+                        <p class="optCategories">Pasta</p>
+                        <p class="optCategories">Carnes</p>
+                        <p class="optCategories">Pollos y otras aves</p>
+                        <p class="optCategories">Pescado y mariscos</p>
+                        <p class="optCategories">Verduras y hortalizas</p>
+                        <p class="optCategories">Sopas y caldos</p>
+                        <p class="optCategories">Legumbres y guisos</p>
+                        <p class="optCategories">Panes y masas</p>
+                        <p class="optCategories">Salsas y guarniciones</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <!-- fin boton desplegable solo 576px -->
+                <!-- inicio columna lateral derecha -->
         <div class="segCol">
             <div class="inputSearchDiv">
                 <i class="bi bi-search svgSearchBar"></i>
@@ -130,6 +164,7 @@
                 <p class="optCategories">Salsas y guarniciones</p>
             </div>
         </div>
+        <!-- fin columna lateral derecha -->
         <div class="mainCol">
             <div>
                 <h3>Entradas mas recientes</h3>
