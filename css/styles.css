@@ -9,10 +9,20 @@
     margin: 0;
 }
 .navbar {
-    height: 10vh;
+    height: 95px;
     background-color: #FAD4C0;
     width: 100%;
 }
+
+.nav-img{
+  height: 60px !important;
+}
+
+.modal-suscribe{
+  background-color: rgba(247, 182, 147) !important;
+
+}
+
 .Main {
     display: flex;
     background-color: #ffffff;
