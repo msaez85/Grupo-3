@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/assets/background-3.png);
+}
+
+.container{
+    background-color:white;
+    border: solid 1px;
+}
+
+.secciones{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.boton{
+    width: 40% !important;
+}
+
+
+
+.recomendado{
+    width: 30% !important;
+    background-color: aqua;
+}
+
+.vanish{
+    display: none !important;
+}
+
+.autor{
+    font-style: italic;
+}
+
+.imagen{
+    width: 50%;
+    height: 45%;
+}
+
+.icono-ingredientes{
+    width: 100px !important;
+    height: 150px !important;
+}
+
+.icono-preparacion{
+    width:100px;
+    height:100px;
+}

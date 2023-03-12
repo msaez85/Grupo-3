@@ -122,6 +122,18 @@
     height: 100% !important;
 }
 
+.botones{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color:#241835;
+  
+}
+
+.boton{
+  margin-left: 15px;
+  color: black;
+}
 /* Inicio footer */
 .footer, .footer-content {
     width: 100% !important;
@@ -335,6 +347,16 @@
 
       .optCategories {
         font-size: 0.7rem;
+    }
+
+    /*  inicio media cards*/
+
+    .mainCol{
+      width:100%;
+    }
+
+    .vanish{
+      display: none !important;
     }
 }
 
