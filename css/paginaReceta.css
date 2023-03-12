@@ -22,7 +22,17 @@ body{
     width: 40% !important;
 }
 
+.comentarios{
+    display: flex;
+    border: solid black 1px;
+}
 
+
+.responder{
+    text-decoration: none;
+    color: aqua;
+    cursor: pointer;
+}
 
 .recomendado{
     width: 30% !important;
@@ -50,4 +60,10 @@ body{
 .icono-preparacion{
     width:100px;
     height:100px;
+}
+
+.usuario{
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
 }
