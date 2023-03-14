@@ -297,9 +297,9 @@
       margin: 0 !important;
     }
     /*fin css media-query navbar*/
-    .optCategories {
+    /* .optCategories {
       font-size: 0.8rem;
-    }
+    } */
     /*inicio del css del footer*/
     .footer-content{
       height: auto !important;
@@ -402,9 +402,9 @@
         text-align: center;
       }
       /*fin del css del footer*/
-      .optCategories {
+      /* .optCategories {
         font-size: 0.7rem;
-    }
+    } */
 
     /*  inicio media cards*/
 
