@@ -14,6 +14,14 @@
     width: 100%;
 }
 
+.btn-navbar{
+  margin-left: 14rem;
+}
+
+.menu-navbar{
+  margin-left: 10rem;;
+}
+
 .nav-img{
   height: 60px !important;
 }
@@ -240,6 +248,14 @@
         border-radius: 5px;
     }
 
+    .btn-navbar{
+      margin-left: 2rem;
+    }
+    
+    .menu-navbar{
+      margin-left: 2rem;
+    }
+
     .nav-link{
         font-size: smaller !important;
         margin: 0 !important;
@@ -254,6 +270,14 @@
 
     .nav-container{
         width: 90% !important;
+    }
+
+    .btn-navbar{
+      margin-left: 0;
+    }
+    
+    .menu-navbar{
+      margin-left: 0;
     }
 
     .footer-content{
