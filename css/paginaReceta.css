@@ -1,15 +1,24 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 body{
-    background-image: url(/assets/background-3.png);
+    background-image: url(/assets/background-1.jpg);
 }
 
 .container{
-    background-color:white;
-    border: solid 1px;
+    background-color:rgba(37, 37, 37, 0.87);
+    
+}
+
+.carousel{
+    width: auto !important;
+}
+
+.img{
+    margin :25px;
 }
 
 .secciones{
@@ -20,6 +29,7 @@ body{
 
 .boton{
     width: 40% !important;
+    color:black;
 }
 
 .comentarios{
