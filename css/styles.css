@@ -331,14 +331,14 @@
 }
 
 @media (max-width: 576px){
-
-  .carousel1 {
-    display: none;
-  }
-  .carousel2 {
-    display: block;
-    margin-top: 15vh;
-  }
+      /* carousel  */
+      .carousel1 {
+      display: none;
+      }
+      .carousel2 {
+      display: block;
+      margin-top: 15vh;
+      }
       /*inicio css media-query navbar*/
   
       .nav-container{
@@ -354,15 +354,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 40px;
-        width: 40px;
+        height: 45px;
+        width: 45px;
         background-color: RGB(250, 212, 192);
-        border-radius: 0 7px 7px 0;
+        border-radius: 0 15px 15px 0;
         position: fixed;
         left: 0;
         top: 50vh;
         z-index: 2;
-        border: 2px black solid;
+        border: 1px black solid;
       }
       .svgSearchBarBtn {
         height: 80%;
