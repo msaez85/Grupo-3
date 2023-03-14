@@ -58,7 +58,8 @@
                 <div class="modal-dialog">
                     <div class="modal-content modal-suscribe">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5  fw-semibold text-dark" id="staticBackdropLabel">Quiero Suscribirme</h1>
+                            <h1 class="modal-title fs-5  fw-semibold text-dark" id="staticBackdropLabel">Quiero
+                                Suscribirme</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
@@ -67,7 +68,8 @@
                                 <input type="text" class="form-control" id="FormControlText" placeholder="Juan Perez">
                             </div>
                             <div class="mb-3">
-                                <label for="FormControlemail" class="form-label fw-semibold text-dark">Correo Electronico</label>
+                                <label for="FormControlemail" class="form-label fw-semibold text-dark">Correo
+                                    Electronico</label>
                                 <input type="email" class="form-control" id="FormControlemail"
                                     placeholder="name@example.com">
                             </div>
@@ -81,7 +83,7 @@
             </div>
         </nav>
         <!-- Inicio Carousel -->
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div id="carouselExampleDark" class="carousel1 carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -113,12 +115,47 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+        </div>
+            <!-- carousel 576px -->
+            <div id="carouselExampleDark" class="carousel2 carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./assets/Vida-saludable-slider Recortado.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./assets/pizza-slider Recortado.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/Pasta-slider Recortado.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
     </header>
     <main class="Main">
         <!-- inicio boton desplegable solo 576px -->
-        <div class="segColBtn z-3">            
-            <button class="btn" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="bi bi-search svgSearchBarBtn"></i></button>
+        <div class="segColBtn z-3">
+            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                aria-controls="offcanvasScrolling"><i class="bi bi-search svgSearchBarBtn"></i></button>
 
             <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
                 id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
@@ -147,8 +184,8 @@
                 </div>
             </div>
         </div>
-                <!-- fin boton desplegable solo 576px -->
-                <!-- inicio columna lateral izquierda -->
+        <!-- fin boton desplegable solo 576px -->
+        <!-- inicio columna lateral izquierda -->
         <div class="segCol">
             <div class="inputSearchDiv">
                 <i class="bi bi-search svgSearchBar"></i>
@@ -415,7 +452,7 @@
                 <p class="m-0 foot-text">T: +54 9 381 578 3030</p>
             </div>
             <div class="footer-content">
-                <p class ="mt-5 foot-text">Siguenos en nuestras redes sociales</p>
+                <p class="mt-5 foot-text">Siguenos en nuestras redes sociales</p>
                 <div class="media mt-4">
                     <ul class="social-network social-circle container d-flex flex-row justify-content-evenly">
                         <li><a href="https://www.facebook.com/" class="icoFacebook" title="Facebook"><i

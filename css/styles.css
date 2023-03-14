@@ -10,7 +10,7 @@
 }
 /*inicio del css del navbar*/
 .navbar {
-    height: 95px;
+    height: 15vh;
     background-color: #FAD4C0;
     width: 100%;
 }
@@ -48,24 +48,29 @@
 .segCol {
     width: 30%;
     background-color: RGB(250, 212, 192);
-    height: 90vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     padding: 10px 20px;
     position: sticky;
-    top: 10vh;
-    border: 2px solid black;
+    top: 15vh;
+
 }
 /* Fin segunda columna izquierda */
 /* Inicio columna principal derecha */
 .mainCol {
-    border: red 2px  solid;
+
     width: 70%;
     padding: 10px;
 }
 /* Fin columna principal derecha */
-.carousel {
-    margin-top: 10vh;
+
+.carousel1 {
+    margin-top: 15vh;
+}
+.carousel2 {
+  display: none;
+  margin-top: 15vh;
 }
 /* Inicio parte input search segunda columna */
 
@@ -326,7 +331,16 @@
 }
 
 @media (max-width: 576px){
+
+  .carousel1 {
+    display: none;
+  }
+  .carousel2 {
+    display: block;
+    margin-top: 15vh;
+  }
       /*inicio css media-query navbar*/
+  
       .nav-container{
          width: 100% !important;
       }
