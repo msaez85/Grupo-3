@@ -38,10 +38,12 @@ body{
 
 .carousel{
     width: auto !important;
+    margin-top: 35px !important;
 }
 
 .img{
-    margin :25px;
+    width :50%;
+    margin-left: 25%;
 }
 
 .secciones{
