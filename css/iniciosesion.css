@@ -1,6 +1,6 @@
 .loginBody{
-    font-family: 'Roboto', sans-serif;
-    font-size: large;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: large !important;
     background-image: url('../assets/background-3.png');
     
 }
@@ -101,6 +101,14 @@
 }
 
 /* media querie */
+
+@media only screen and (max-width: 562px) {
+    .container-inicio-sesion {
+      width: 80%;
+      margin: 0;
+      padding: 20px;
+    }
+  }
 @media only screen and (max-width: 425px) {
     .container-inicio-sesion {
       width: 100%;

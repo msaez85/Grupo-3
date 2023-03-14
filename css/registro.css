@@ -34,7 +34,7 @@
     -webkit-box-shadow: 8px 0px 5px 9px rgba(0,0,0,0.5);
     -moz-box-shadow: 8px 0px 5px 9px rgba(0,0,0,0.5);
     
-    background-color: antiquewhite;
+    background-color: #FAD4C0;
     }  
 
     #correo-input, #nombre-input, #apellido-input, #usuario-reg-input, #contraseña-reg-input, #contraseña-reg-confirm-input, .registrar-btn{ 
@@ -89,10 +89,46 @@
     
     
     /* media querie */
+    
+    @media only screen and (max-width: 630px) {
+        .container-registro {
+          width: 100%;
+          margin: 0;
+          padding: 20px;
+        }
+      }
+    
     @media only screen and (max-width: 425px) {
         .container-registro {
           width: 100%;
           margin: 0;
           padding: 20px;
         }
+      }
+
+      @media only screen and (max-width: 383px) {
+        .container-registro {
+          width: 100%;
+          margin: 0;
+          padding: 20px;
+          font-size: small;
+        }
+        #correo-input, #nombre-input, #apellido-input, #usuario-reg-input, #contraseña-reg-input, #contraseña-reg-confirm-input::placeholder{
+            font-size: small;
+
+        }
+
+      }
+      @media only screen and (max-width: 320px) {
+        .container-registro {
+          width: 100%;
+          margin: 0;
+          padding: 20px;
+          font-size: small;
+        }
+        #correo-input, #nombre-input, #apellido-input, #usuario-reg-input, #contraseña-reg-input, #contraseña-reg-confirm-input::placeholder{
+            font-size: small;
+
+        }
+
       }
