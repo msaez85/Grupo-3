@@ -8,6 +8,7 @@
     padding: 0;
     margin: 0;
 }
+/*inicio del css del navbar*/
 .navbar {
     height: 95px;
     background-color: #FAD4C0;
@@ -28,8 +29,8 @@
 
 .modal-suscribe{
   background-color: rgba(247, 182, 147) !important;
-
 }
+/*fin del css del navbar*/
 
 .Main {
     display: flex;
@@ -87,7 +88,6 @@
   align-items: center;
   border-radius: 5px;
 }
-
 
 .recipesTitle {
     margin: 5px 0;
@@ -152,7 +152,7 @@
   margin-left: 15px;
   color: black;
 }
-/* Inicio footer */
+/*inicio del css del footer*/
 .footer, .footer-content {
     width: 100% !important;
     height: 27vh !important;
@@ -239,10 +239,11 @@
     font-size: larger;
     font-weight: bold;
 }
+/*fin del css del footer*/
 
 @media (max-width: 1200px){
-
-  .nav-container{
+    /*inicio css media-query navbar*/
+    .nav-container{
         background-color: #FAD4C0 !important;
         width: 80% !important;
         border-radius: 5px;
@@ -260,14 +261,16 @@
         font-size: smaller !important;
         margin: 0 !important;
     } 
-
+    /*fin css media-query navbar*/
+    /*inicio del css del footer*/
     .footer-container{
       font-size: medium;
-  }
+    }
+    /*fin del css del footer*/
 }
 
 @media (max-width: 768px){
-
+    /*inicio css media-query navbar*/
     .nav-container{
         width: 90% !important;
     }
@@ -280,15 +283,19 @@
       margin-left: 0;
     }
 
+    .nav-link{
+      font-size: smaller !important;
+      margin: 0 !important;
+    }
+    /*fin css media-query navbar*/
+    .optCategories {
+      font-size: 0.8rem;
+    }
+    /*inicio del css del footer*/
     .footer-content{
       height: auto !important;
     }
-
-    .nav-link{
-        font-size: smaller !important;
-        margin: 0 !important;
-    }
-
+    
     .footer-container{
         font-size: medium;
     }
@@ -311,13 +318,15 @@
         line-height: 30px;
         text-align: center;
       }
-
-      .optCategories {
-        font-size: 0.8rem;
-    }
+      /*fin del css del footer*/
 }
 
 @media (max-width: 576px){
+      /*inicio css media-query navbar*/
+      .nav-container{
+         width: 100% !important;
+      }
+      /*fin css media-query navbar*/
       /* Inicio boton barra lateral */
       .segCol {
         display: none;
@@ -347,11 +356,7 @@
         background-color: RGB(250, 212, 192) !important;
       }
       /* Fin boton barra lateral */
-
-    .nav-container{
-        width: 100% !important;
-    }
-
+      /*inicio del css del footer*/
     .footer-container{
         display: flex;
         flex-direction: column;
@@ -378,7 +383,7 @@
         line-height: 50px;
         text-align: center;
       }
-
+      /*fin del css del footer*/
       .optCategories {
         font-size: 0.7rem;
     }
