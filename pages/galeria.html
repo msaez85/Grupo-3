@@ -1,40 +1,153 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/galeria.css">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/galeria.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4d7920e24b.js" crossorigin="anonymous"></script>
 </head>
 
-  <body>
-
-    <section class="container d-flex flex-column">
-
-      <div>
-        <h1 style="text-align:center">"<u>GALERIA DE FOTOS</u>"</h1>
-      </div>
-    <br><br>
-      <div class="row">
-        
-            <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img src="../assets/imag-001.jpg" alt=""></div><br>
-            <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img src="../assets/imag-002.jpg" alt=""></div><br>
-            <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img src="../assets/imag-003.jpg" alt=""></div><br>
-            <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img src="../assets/imag-004.jpg" alt=""></div><br>
-            <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img src="../assets/imag-005.jpg" alt=""></div><br>
-            <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img src="../assets/imag-006.jpg" alt=""></div><br>
-            <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img src="../assets/imag-007.jpg" alt=""></div><br>
-            <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img src="../assets/imag-008.jpg" alt=""></div><br>
-            <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img src="../assets/imag-009.jpg" alt=""></div><br>
-            <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img src="../assets/imag-010.jpg" alt=""></div><br>
-            <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img src="../assets/imag-011.jpg" alt=""></div><br>
-            <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img src="../assets/imag-012.jpg" alt=""></div><br>
-            </div>
+<body class="container-fluid d-flex flex-column justify-content-center px-0">
+  <header>
+    <nav class="navbar navbar-expand-lg position-fixed top-0 start-0 z-3">
+      <div class="container-fluid nav-container">
+        <img src="../assets/Multiverso culinario/1.svg" class="img-fluid mx-1 nav-img" alt="brand">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  justify-content-center menu-navbar" id="navbarNavDropdown">
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active mx-2 fs-5 fw-semibold" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item mx-2 fs-5 fw-semibold">
+              <a class="nav-link" href="./about_us.html">Acerca de nosotros</a>
+            </li>
+            <li class="nav-item mx-2 fs-5 fw-semibold">
+              <a class="nav-link" href="./formulario.html">Contacto</a>
+            </li>
+            <li class="nav-item mx-2 fs-5 fw-semibold">
+              <a class="nav-link" href="./galeria.html">Galeria</a>
+            </li>
+          </ul>
+          <form class="d-flex btn-navbar" role="sign">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-dark mx-2 fs-5 fw-semibold" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop">
+              <a class="dropdown-item" href="#">Suscribirse</a>
+            </button>
+            <button class="btn btn-outline-dark mx-2 fs-5 fw-semibold" type="submit"><a class="dropdown-item"
+                href="./iniciosesion.html">Entrar</a></button>
+          </form>
         </div>
-    </div>
-    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content modal-suscribe">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 fw-semibold text-dark" id="staticBackdropLabel">Quiero Suscribirme</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="mb-3">
+                <label for="FormControlText" class="form-label fw-semibold text-dark">Nombre</label>
+                <input type="text" class="form-control" id="FormControlText" placeholder="Juan Perez">
+              </div>
+              <div class="mb-3">
+                <label for="FormControlemail" class="form-label fw-semibold text-dark">Correo Electronico</label>
+                <input type="email" class="form-control" id="FormControlemail" placeholder="name@example.com">
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-dark">Suscribirme</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container d-flex flex-column main">
+    <div class="title">
+      <h1 style="text-align:center">"<u>GALERIA DE FOTOS</u>"</h1>
+    </div>
+    <br><br>
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img class="img-gal"
+          src="../assets/imag-001.jpg" alt=""></div><br>
+      <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img class="img-gal"
+          src="../assets/imag-002.jpg" alt=""></div><br>
+      <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img class="img-gal"
+          src="../assets/imag-003.jpg" alt=""></div><br>
+      <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img class="img-gal"
+          src="../assets/imag-004.jpg" alt=""></div><br>
+      <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img class="img-gal"
+          src="../assets/imag-005.jpg" alt=""></div><br>
+      <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img class="img-gal"
+          src="../assets/imag-006.jpg" alt=""></div><br>
+      <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img class="img-gal"
+          src="../assets/imag-007.jpg" alt=""></div><br>
+      <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img class="img-gal"
+          src="../assets/imag-008.jpg" alt=""></div><br>
+      <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img class="img-gal"
+          src="../assets/imag-009.jpg" alt=""></div><br>
+      <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img class="img-gal"
+          src="../assets/imag-010.jpg" alt=""></div><br>
+      <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img class="img-gal"
+          src="../assets/imag-011.jpg" alt=""></div><br>
+      <div class="col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center mb-4"><img class="img-gal"
+          src="../assets/imag-012.jpg" alt=""></div><br>
+    </div>
+  </main>
+  <!-- inicio Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <img src="../assets/Logo sin fondo.png" class="img-fluid w-50 m-1 img-multi" alt="brand2">
+      </div>
+      <div class="footer-content">
+        <p class="mt-4 mb-0 foot-text">Casa Central Tucuman</p>
+        <p class="m-0 foot-text">General Paz 576</p>
+        <p class="m-0 foot-text">San Miguel de Tucuman</p>
+        <p class="m-0 foot-text">Tucuman 4000</p>
+        <p class="m-0 foot-text">T: +54 9 381 578 3030</p>
+      </div>
+      <div class="footer-content">
+        <p class="mt-5 foot-text">Siguenos en nuestras redes sociales</p>
+        <div class="media mt-4">
+          <ul class="social-network social-circle container d-flex flex-row justify-content-evenly">
+            <li><a href="https://www.facebook.com/" class="icoFacebook" title="Facebook"><i
+                  class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/" class="icoLinkedin" title="Linkedin"><i
+                  class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/" class="icoInstagram" title="Instagram"><i
+                  class="fa fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-content">
+        <p class="mt-4 mb-0 foot-text">Te interesa nuestras recetas</p>
+        <p class="m-0 foot-text">Tienes alguna sugerencia?</p>
+        <p class="m-0 foot-text">Nos encataria saber de ti</p>
+        <a class="m-0" href="./formulario.html">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

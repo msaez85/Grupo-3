@@ -30,15 +30,15 @@
 .modal-suscribe{
   background-color: rgba(247, 182, 147) !important;
 }
+
+.modal-backdrop {
+  z-index: 0 !important;
+}
 /*fin del css del navbar*/
 
 .Main {
     display: flex;
     background-color: #ffffff;
-}
-
-.modal-backdrop {
-    z-index: 0 !important;
 }
 
 /* Inicio segunda columna izquierda */
@@ -153,6 +153,10 @@
   color: black;
 }
 /*inicio del css del footer*/
+.foot-text{
+  color: black;
+}
+
 .footer, .footer-content {
     width: 100% !important;
     height: 27vh !important;
