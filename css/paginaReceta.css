@@ -3,6 +3,29 @@
     padding: 0;
     color: white;
 }
+.navbar {
+    height: 95px;
+    background-color: #FAD4C0;
+    width: 100%;
+}
+
+.btn-navbar{
+  margin-left: 14rem;
+}
+
+.menu-navbar{
+  margin-left: 10rem;;
+}
+
+.nav-img{
+  height: 60px !important;
+}
+
+.modal-suscribe{
+  background-color: rgba(247, 182, 147) !important;
+
+}
+
 
 body{
     background-image: url(/assets/background-1.jpg);
