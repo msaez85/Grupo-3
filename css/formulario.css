@@ -1,12 +1,13 @@
 body{
-  background-image: url(http://127.0.0.1:5500/assets/background-gris-claro.jpg);
+  background-image: url(../assets/background-gris-claro.jpg);
 }
 .section-contact{
   display: flex;
   align-items: center ;
   justify-content: center;
 }
-form{
+
+.form-contact{
   margin: 30px;
   padding: 10px;
   width: 50vw;
@@ -15,6 +16,7 @@ form{
   font-size: large;
   color: #FAD4C0;
 }
+
 .pie-de-pagina{
     display: flex;
     flex-direction: row; 
@@ -26,7 +28,17 @@ form{
 .ubicacion{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.inf-adicional{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .social-network a.icoFacebook:hover {
     background-color: #3B5998;
   }
@@ -134,3 +146,17 @@ form{
     text-align: center;
   }
 
+  @media (max-width: 768px){
+
+    .pie-de-pagina{
+      display: flex;
+      flex-direction: column; 
+      justify-content: center;
+      font-size: large;
+  }
+
+  .form-contact{
+    width: 90vw;
+
+  }
+}
