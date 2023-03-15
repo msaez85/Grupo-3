@@ -14,6 +14,71 @@
     />
     <script src="https://kit.fontawesome.com/4d7920e24b.js" crossorigin="anonymous"></script>
   </head>
+
+  <header>
+    <nav class="navbar navbar-expand-lg position-fixed top-0 start-0 z-3">
+      <div class="container-fluid nav-container">
+        <img src="../assets/Multiverso culinario/1.svg" class="img-fluid mx-1 nav-img" alt="brand">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  justify-content-center menu-navbar" id="navbarNavDropdown">
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active mx-2 fs-5 fw-semibold" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item mx-2 fs-5 fw-semibold">
+              <a class="nav-link" href="./about_us.html">Acerca de nosotros</a>
+            </li>
+            <li class="nav-item mx-2 fs-5 fw-semibold">
+              <a class="nav-link" href="./formulario.html">Contacto</a>
+            </li>
+            <li class="nav-item mx-2 fs-5 fw-semibold">
+              <a class="nav-link" href="./galeria.html">Galeria</a>
+            </li>
+          </ul>
+          <form class="d-flex btn-navbar" role="sign">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-dark mx-2 fs-5 fw-semibold" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop">
+              <a class="dropdown-item" href="#">Suscribirse</a>
+            </button>
+            <button class="btn btn-outline-dark mx-2 fs-5 fw-semibold" type="submit"><a class="dropdown-item"
+                href="./iniciosesion.html">Entrar</a></button>
+          </form>
+        </div>
+
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content modal-suscribe">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 fw-semibold text-dark" id="staticBackdropLabel">Quiero Suscribirme</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="mb-3">
+                <label for="FormControlText" class="form-label fw-semibold text-dark">Nombre</label>
+                <input type="text" class="form-control" id="FormControlText" placeholder="Juan Perez">
+              </div>
+              <div class="mb-3">
+                <label for="FormControlemail" class="form-label fw-semibold text-dark">Correo Electronico</label>
+                <input type="email" class="form-control" id="FormControlemail" placeholder="name@example.com">
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-dark">Suscribirme</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
   <body>
     <div
       id="carouselExampleAutoplaying"
@@ -55,10 +120,10 @@
       </button>
     </div><br>
 
-    <div class="container">
+    <div class="container color">
       <h1>SALSA DE TOMATE CASERA</h1>
       <p class="autor">salsa de tomate:por usuario</p>
-      <img class="imagen" src="/assets/comida.jpeg" alt="" />
+      <img class="imagen img" src="/assets/comida.jpeg" alt="" />
       <br><br><p>
         Cómo hacer la salsa de tomate casera. Hoy en día, por falta de tiempo
         principalmente, poca gente prepara su propia salsa de tomate o tomate
@@ -73,8 +138,8 @@
         comercial.
       </p>
     </div><br>
-    <div class="container">
-        <h2><img class="icono-ingredientes" src="/assets/ingredientes-removebg-preview.png">Ingredientes</h2><hr>
+    <div class="container color">
+        <h2><img class="icono-ingredientes" src="/assets/ingredientes-blanco.png">Ingredientes</h2><hr>
         <p>Ingredientes para 4 personas</p>
         <ul>
             <li>2kg de tomate triturado o 2 kg de tomates</li>
@@ -89,8 +154,8 @@
         </ul>
     </div><br>
 
-    <div class="container">
-        <h2><img class="icono-preparacion" src="/assets/6-67729_resultado-de-imagen-para-gorro-de-chef-png-cook-removebg.png" alt="">Preparacion</h2><hr>
+    <div class="container color">
+        <h2><img class="icono-preparacion" src="/assets/sombrero-blanco.png" alt="">Preparacion</h2><hr>
         <ol>
             <li>En una cazuela alta u olla, ponemos a calentar a fuego suave un chorrito de aceite de oliva. Añadimos la cebolla, el pimiento verde y el ajo bien picados. Salpimentamos y cocinamos ambos ingredientes durante unos 10 minutos, removiendo con frecuencia</li><br>
             <li>Cuando la cebolla esté transparente y blanda, añadimos el ingrediente más importante de nuestra salsa de tomate: el tomate triturado. Puedes añadir también 2kg de tomates, pelados y sin pepitas pero, para agilizar y facilitar un poco la receta, recomiendo hacerlo con tomate triturado. Si lo haces con tomates enteros, cocinamos otros 20 minutos antes de seguir con el siguiente paso</li><br>
@@ -99,7 +164,7 @@
         </ol>
         <p>Es fácil preparar tu propia receta de salsa de tomate casera. Además, existen muchas formas de prepararla. A mí, personalmente me gusta más encontrarme trocitos de verduras en la salsa pero, si la quieres más fina, no olvides triturarla al final ¡Recuerda que puedes hacerla en grandes cantidades para después congelarla!</p>
     </div><br>
-    <div class="container secciones ">
+    <div class="container color secciones ">
         <div class="row">
             <label for="comentarios"><h3>Deja tu comentario</h3></label>
             <textarea name="comentarios" id="" cols="20" rows="5" placeholder="deja un comentario" maxlength="140" minlength="1"></textarea><br><br>
@@ -107,7 +172,7 @@
             </div>
     </div><br>
 
-    <div class="container">
+    <div class="container color">
         <h3>Comentarios</h3><hr>
         <div class="comentarios">
             <img class="usuario" src="/assets/myAvatar (1).png" alt="">
@@ -135,6 +200,41 @@
         </div>
     </div>
 
+      <!-- inicio Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <img src="../assets/Logo sin fondo.png" class="img-fluid w-50 m-1 img-multi" alt="brand2">
+      </div>
+      <div class="footer-content">
+        <p class="mt-4 mb-0 foot-text">Casa Central Tucuman</p>
+        <p class="m-0 foot-text">General Paz 576</p>
+        <p class="m-0 foot-text">San Miguel de Tucuman</p>
+        <p class="m-0 foot-text">Tucuman 4000</p>
+        <p class="m-0 foot-text">T: +54 9 381 578 3030</p>
+      </div>
+      <div class="footer-content">
+        <p class="mt-5 foot-text">Siguenos en nuestras redes sociales</p>
+        <div class="media mt-4">
+          <ul class="social-network social-circle container d-flex flex-row justify-content-evenly">
+            <li><a href="https://www.facebook.com/" class="icoFacebook" title="Facebook"><i
+                  class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/" class="icoLinkedin" title="Linkedin"><i
+                  class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/" class="icoInstagram" title="Instagram"><i
+                  class="fa fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-content">
+        <p class="mt-4 mb-0 foot-text">Te interesa nuestras recetas</p>
+        <p class="m-0 foot-text">Tienes alguna sugerencia?</p>
+        <p class="m-0 foot-text">Nos encataria saber de ti</p>
+        <a class="m-0" href="./formulario.html">Contacto</a>
+      </div>
+    </div>
+  </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
