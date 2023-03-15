@@ -17,32 +17,34 @@
     
     <div class="contenedor">
         <div class="container-registro">
-            <h1>Crea tu cuenta de Multiverso Culinario</h1> <br>
+            <h1>Crea tu cuenta de Multiverso Culinario</h1>
             <form action="">
                 
-                <input required type="email" name="correo" id="correo-input" placeholder="Correo electrónico o número de teléfono"><br><br>
+                <input required type="email" class="text-input" name="correo" id="correo-input" placeholder="Correo electrónico o número de teléfono"><br><br>
                 
-                <input required type="text" name="nombre" id="nombre-input" placeholder="Nombre"><br><br>
+                <input required type="text" class="text-input" name="nombre" id="nombre-input" placeholder="Nombre"><br><br>
                 
-                <input required type="text" name="apellido" id="apellido-input" placeholder="Apellido"><br><br>
+                <input required type="text" class="text-input" name="apellido" id="apellido-input" placeholder="Apellido"><br><br>
                 
-                <input required type="text" name="usuarioreg" id="usuario-reg-input" placeholder="Nombre de usuario"><br><br>
+                <input required type="text" class="text-input" name="usuarioreg" id="usuario-reg-input" placeholder="Nombre de usuario"><br><br>
                 
-                <input required type="password" name="contraseñareg" id="contraseña-reg-input" placeholder="Contraseña"><br><br>
+                <input required type="password" class="text-input" name="contraseñareg" id="contraseña-reg-input" placeholder="Contraseña"><br><br>
                 
-                <input required type="password" name="contraseñaregconfirm" id="contraseña-reg-confirm-input" placeholder="Confirma tu contraseña"><br><br><br>
-
-                <button required type="submit" class="registrar-btn">Comenzar</button><br><br><br><br>
-                
-                <span>Ya tengo una cuenta. <a id="already-account" href="iniciosesion.html">Iniciar Sesión.</a></span><br><br><br>
+                <input required type="password" class="text-input" name="contraseñaregconfirm" id="contraseña-reg-confirm-input" placeholder="Confirma tu contraseña"><br><br>
+                <div class="btn-inicio">
+                    <button required type="submit" class="registrar-btn registrar"><a class="ini" href="error404.html">Registrarme</a></button>
+                    <button type="submit" class="registrar-btn cancelar"><a class="ini" href="../index.html">Cancelar</a></button>
+                </div>
+                <br><br>
+                <span>Ya tengo una cuenta. <a id="already-account" href="iniciosesion.html">Iniciar Sesión.</a></span><br>
                 
                 <!--iniciar con redes-->
                 <div class="redes-registrar-box">
                     <div class="google-registrar-box">
-                        <span><a href="#"> <i class="fa-brands fa-google"></i> Registrarme con Google </a></span>
+                        <span><a href="error404.html"> <i class="fa-brands fa-google"></i> Registrarme con Google </a></span>
                     </div>
                     <div class="facebook-registrar-box">
-                        <span><a href="#"><i class="fa-brands fa-facebook"></i> Registrarme con Facebook </a></span>
+                        <span><a href="error404.html"><i class="fa-brands fa-facebook"></i> Registrarme con Facebook </a></span>
                     </div>    
                 </div>
             
