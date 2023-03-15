@@ -42,10 +42,12 @@ body{
 }
 
 .title{
-    color: red;
-    background-color: antiquewhite;
+    color: white;
     padding: 10px;
     border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.781);
+    border: 7px solid #FAD4C0;
+    font-size: large;
 }
 .col-3{
     margin: 0px;
@@ -57,11 +59,12 @@ body{
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 8px 8px 10px 3px rgba(53, 7, 182, 0.877);
+    box-shadow: 8px 8px 10px 3px rgba(80, 80, 80, 0.75);
+    border: 5px solid rgb(247, 182, 147);
 }
 
 .img-gal:hover{
-    border: 10px solid red;
+    border: 5px solid black;
 }
 /*inicio del css del footer*/
 .foot-text{
