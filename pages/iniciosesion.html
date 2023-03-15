@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,7 @@
     <script src="https://kit.fontawesome.com/5f1547ad16.js" crossorigin="anonymous"></script>
 
 </head>
+
 <body class="loginBody">
     <!--LOGIN-->
     <div class="contenedor">
@@ -21,30 +23,39 @@
             </div>
             <div class="formulario">
                 <form action="">
-                    
-                    <input type="text" name="usuario" id="usuario-input" placeholder="Usuario o correo electrónico"><br><br>
-                    
+
+                    <input type="text" name="usuario" id="usuario-input"
+                        placeholder="Usuario o correo electrónico"><br><br>
+
                     <input type="password" name="contraseña" id="contraseña-input" placeholder="Contraseña"><br><br><br>
-                    <button type="submit" class="ingresar-btn">Ingresar</button><br><br><br>
+                    <div class="btn-inicio">
+                        <button type="submit" class="ingresar-btn inicio"><a class="ini" href="error404.html">Ingresar</a></button>
+                        <button type="submit" class="ingresar-btn cancelar"><a class="ini" href="../index.html">Cancelar</a></button>
+                    </div>
+                    <br><br><br>
                     <a id="forgot-pass" href="recuperarcontraseña.html">He olvidado mi contraseña.</a><br><br>
-                    <span>No tengo una cuenta. <a id="not-have-account" href="registro.html">Registrarme.</a><br><br></span> 
+                    <span>No tengo una cuenta. <a id="not-have-account"
+                            href="registro.html">Registrarme.</a><br><br></span>
                     <!--iniciar con redes-->
                     <div class="redes-iniciar-box">
-                        
+
                         <div class="google-iniciar-box">
-                            <span><a href="error404.html"> <i class="fa-brands fa-google"></i> Iniciar sesión con Google </a></span>
+                            <span><a href="error404.html"> <i class="fa-brands fa-google"></i> Iniciar sesión con Google
+                                </a></span>
                         </div>
                         <div class="facebook-iniciar-box">
-                            <span><a href="error404.html"><i class="fa-brands fa-facebook"></i> Iniciar sesión con Facebook</a></span>
+                            <span><a href="error404.html"><i class="fa-brands fa-facebook"></i> Iniciar sesión con
+                                    Facebook</a></span>
                         </div>
                     </div>
-            
-                    
+
+
                 </form>
             </div>
         </div>
     </div>
-    
-  
+
+
 </body>
+
 </html>

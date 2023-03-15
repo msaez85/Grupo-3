@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 95vh;
     
 }
 
@@ -49,7 +49,8 @@
     border-top-right-radius: 2%;
     border-bottom-left-radius: 2%;
     border-bottom-right-radius: 2%;
-
+    margin: 0;
+    padding: 0;
 }
 
 .ingresar-btn{
@@ -61,14 +62,28 @@
     border-top-right-radius: 4%;
     border-bottom-left-radius: 4%;
     border-bottom-right-radius: 4%;
+    width: 46%;
+}
+
+.inicio{
+    margin-right: 5%;
+}
+
+.cancelar{
+    margin-left: 5%;
 }
 
 .ingresar-btn:hover{
     border: 2px solid rgb(65, 65, 65);
-    background-color: rgb(255, 38, 0);
+    background-color: black;
     color: white;
     font-size: 21px;
-    
+}
+
+.ingresar-btn:hover .ini{
+    background-color: black;
+    color: white;
+    font-size: 21px;
 }
 
 #forgot-pass, #not-have-account{
@@ -100,16 +115,23 @@
     text-decoration: underline;
 }
 
+.btn-inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 /* media querie */
 
-@media only screen and (max-width: 562px) {
+@media only screen and (max-width: 768px) {
     .container-inicio-sesion {
       width: 80%;
       margin: 0;
       padding: 20px;
     }
   }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 576px) {
     .container-inicio-sesion {
       width: 100%;
       margin: 0;
