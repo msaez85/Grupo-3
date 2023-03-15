@@ -52,7 +52,7 @@
     top: 10vh;
 }
 .carouselPublicidad {
-  width: 80%;
+  width: 100%;
 }
 /* Fin segunda columna izquierda */
 /* Inicio columna principal derecha */
@@ -70,7 +70,14 @@
   margin-top: 10vh !important;
 }
 /* Inicio parte input search segunda columna */
-
+.containerCat {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
 .inputSearchBar {
     border: none;
     outline: none;
@@ -94,8 +101,8 @@
   justify-content: end;
 }
 .btnSearch {
-  padding: 3px;
-  width: 30%;
+  padding: 3px 5px;
+  /* width: 30%; */
   margin-top: 10px;
   border-radius: 5px;
   border: 1px solid black;
@@ -284,6 +291,9 @@
 }
 
 @media (max-width: 768px){
+  .segCol {
+    padding: 5px 10px;
+}
     /*inicio css media-query navbar*/
     .nav-container{
         width: 90% !important;
@@ -337,6 +347,7 @@
 }
 
 @media (max-width: 576px){
+
       /* carousel  */
       .carousel1 {
       display: none;
@@ -345,13 +356,19 @@
       display: block;
       margin-top: 15vh;
       }
+      .carouselPublicidad {
+        margin-top: 5%;
+        width: 80%;
+      }
       /*inicio css media-query navbar*/
-  
       .nav-container{
          width: 100% !important;
       }
       /*fin css media-query navbar*/
       /* Inicio boton barra lateral */
+      .containerCat {
+        justify-content: start;
+      }
       .segCol {
         display: none;
       }
