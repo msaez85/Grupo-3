@@ -1,8 +1,4 @@
-/* En la segunda columna agregar los siguientes elementos: */
-/* Un pequeño formulario de búsqueda, para encontrar diferentes artículos publicados. */
-/* Una lista de categorías de las entradas del blog. */
-/* Un área de publicidad, la cual deberá desaparecer cuando visualice la página en el tamaño de un celular.
- */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -54,12 +50,13 @@
     padding: 10px 20px;
     position: sticky;
     top: 10vh;
-
+}
+.carouselPublicidad {
+  width: 80%;
 }
 /* Fin segunda columna izquierda */
 /* Inicio columna principal derecha */
 .mainCol {
-
     width: 70%;
     padding: 15px;
 }
@@ -81,30 +78,37 @@
     background-color: white !important;
     height: 40px;
     border-radius: 5px;
-    caret-color: white;
 }
 .inputSearchDiv {
   width: 100%;
   background-color: white !important;
   display: flex;
   justify-content: space-between;
-  border: 2px solid black;
+  margin-top: 10px;
   border-radius: 5px;
   align-items: center;
   border-radius: 5px;
 }
-
+.btnContainer{
+  display: flex;
+  justify-content: end;
+}
+.btnSearch {
+  padding: 3px;
+  width: 30%;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: RGB(250, 212, 192);
+}
+.btnSearch:hover {
+  background-color: #ff7e39;
+}
 .recipesTitle {
-    margin: 5px 0;
+    margin: 10px 0;
 }
 .svgSearchBar {
     padding: 0 2%;
-}
-.inputSearchDiv:hover .inputSearchBar {
-  background-color: white !important;
-}
-.inputSearchDiv:hover {
-  background-color: white !important;
 }
 /* Fin parte input search segunda columna */
 
