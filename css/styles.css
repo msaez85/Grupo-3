@@ -70,7 +70,7 @@
 }
 .carousel2 {
   display: none;
-  margin-top: 10vh;
+  margin-top: 10vh !important;
 }
 /* Inicio parte input search segunda columna */
 
