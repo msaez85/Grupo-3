@@ -10,7 +10,7 @@
 }
 /*inicio del css del navbar*/
 .navbar {
-    height: 15vh;
+    height: 10vh;
     background-color: #FAD4C0;
     width: 100%;
 }
@@ -48,12 +48,12 @@
 .segCol {
     width: 30%;
     background-color: RGB(250, 212, 192);
-    height: 85vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     padding: 10px 20px;
     position: sticky;
-    top: 15vh;
+    top: 10vh;
 
 }
 /* Fin segunda columna izquierda */
@@ -61,16 +61,16 @@
 .mainCol {
 
     width: 70%;
-    padding: 10px;
+    padding: 15px;
 }
 /* Fin columna principal derecha */
 
 .carousel1 {
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 .carousel2 {
   display: none;
-  margin-top: 15vh;
+  margin-top: 10vh;
 }
 /* Inicio parte input search segunda columna */
 
