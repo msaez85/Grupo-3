@@ -267,8 +267,9 @@
     }
 
     .nav-link{
-        font-size: smaller !important;
+        font-size: 19px !important;
         margin: 0 !important;
+        padding: 0 !important;
     } 
     /*fin css media-query navbar*/
     /*inicio del css del footer*/
@@ -293,8 +294,9 @@
     }
 
     .nav-link{
-      font-size: smaller !important;
-      margin: 0 !important;
+        font-size: 19px !important;
+        margin: 0 !important;
+        padding: 0 !important;
     }
     /*fin css media-query navbar*/
     /* .optCategories {
