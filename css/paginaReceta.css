@@ -31,7 +31,9 @@
   }
 /*fin del css del navbar*/
 
-
+.vanish1{
+    display: none !important;
+}
 body{
     background-image: url(/assets/background-1.jpg);
     margin: 0;
