@@ -37,6 +37,12 @@ body{
   align-items: center;
 }
 
+.ini{
+  text-decoration: none !important;
+  color:black !important;
+  font-size: medium !important;
+}
+
 .inf-adicional{
   display: flex;
   flex-direction: column;
