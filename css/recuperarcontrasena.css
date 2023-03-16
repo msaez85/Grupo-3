@@ -9,33 +9,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 95vh;
-    
+    margin-top: 40px;
 }
 
 .container-recuperar-contraseña{
-    /* display: flex; */
-    /* justify-content: center; */
-    /* margin: 0 auto; */
-    /* flex-direction: column; */
-    /* width: 80%; */
-    /* position: relative; */
     max-width: 100%;
     max-height: 100%;
     width: auto;
     height: auto;
-    border: 4px solid black;
-    padding: 9rem;
+    margin-top: 3rem;
+    padding: 3rem 9rem 3rem 9rem;
     text-align: center;
-    /* box-shadow: 8px -1px 5px 8px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 8px -1px 5px 8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 8px -1px 5px 8px rgba(0,0,0,0.75); */
+    background-color: rgba(0, 0, 0, 0.781);
+    border: 7px solid #FAD4C0;
+    font-size: large;
+    color: #FAD4C0;
+    border-radius: 25px;
     box-shadow: 8px 0px 5px 9px rgba(0,0,0,0.5);
     -webkit-box-shadow: 8px 0px 5px 9px rgba(0,0,0,0.5);
-    -moz-box-shadow: 8px 0px 5px 9px rgba(0,0,0,0.5);
-    
-    background-color: #FAD4C0;
-    
+    -moz-box-shadow: 8px 0px 5px 9px rgba(0,0,0,0.5); 
 }
 
 #email-input, .enviar-btn{ 
@@ -67,18 +59,11 @@
     height: 45px;
 }
 
-.enviar-btn:hover{
-    border: 2px solid rgb(65, 65, 65);
-    background-color: black;
-    color: white;
-    font-size: 21px;  
-}
-
-.enviar-btn:hover .ini{
-    background-color: black;
-    color: white;
-    font-size: 21px;  
-}
+.ini{
+    text-decoration: none !important;
+    color:black !important;
+    font-size: medium !important;
+  }
 
 .btn-inicio{
     display: flex;
@@ -86,15 +71,18 @@
     justify-content: center;
     align-items: center;
 }
-.ini{
-    color: black;
-}
+
 .inicio{
     margin-right: 5%;
 }
 
 .cancelar{
     margin-left: 5%;
+}
+
+.entrada{
+    border-radius: 8px !important;
+    outline:0 !important;
 }
 
 /* media querie */
