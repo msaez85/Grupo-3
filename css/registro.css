@@ -49,6 +49,9 @@
         width: 45%;
     }
 
+    .ini{
+      color: black;
+    }
     .btn-inicio{
       display: flex;
       flex-direction: row;

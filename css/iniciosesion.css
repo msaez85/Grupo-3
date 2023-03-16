@@ -67,12 +67,16 @@
 
 .inicio{
     margin-right: 5%;
+    
 }
 
 .cancelar{
     margin-left: 5%;
 }
 
+.ini{
+    color: black;
+}
 .ingresar-btn:hover{
     border: 2px solid rgb(65, 65, 65);
     background-color: black;
